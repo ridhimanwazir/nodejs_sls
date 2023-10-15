@@ -10,7 +10,7 @@ provider:
 
 functions:
   calculate:
-    handler: app.calculate
+    handler: handler.calculate
     events:
       - http:
           path: /calculate
