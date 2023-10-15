@@ -21,7 +21,7 @@ Before you begin, ensure you have the following prerequisites:
 
 ## Project Structure
 
-- app.js: Contains the AWS Lambda function code for the calculator API.
+- handler.js: Contains the AWS Lambda function code for the calculator API.
 - serverless.yml: Configuration file for the Serverless Framework.
 - package.json: Node.js dependencies.
 
