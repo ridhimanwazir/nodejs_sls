@@ -1,0 +1,17 @@
+---
+
+service: calculator-api
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+
+functions:
+  calculate:
+    handler: app.calculate
+    events:
+      - http:
+          path: /calculate
+          method: POST
