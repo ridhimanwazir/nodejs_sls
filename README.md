@@ -17,13 +17,13 @@ Before you begin, ensure you have the following prerequisites:
 3. Configure your AWS credentials using the AWS CLI
 4. Deploy the service
 
-  The above steps package and deploys your Lambda function, creates an API Gateway, and configures the necessary resources based on your serverless.yml
+  The above steps package and deploy your Lambda function, create an API Gateway, and configure the necessary resources based on your serverless.yml
 
 ## Project Structure
 
-app.js: Contains the AWS Lambda function code for the calculator API.
-serverless.yml: Configuration file for the Serverless Framework.
-package.json: Node.js dependencies.
+- app.js: Contains the AWS Lambda function code for the calculator API.
+- serverless.yml: Configuration file for the Serverless Framework.
+- package.json: Node.js dependencies.
 
 
 Remember to replace placeholders like `your-username`, `your-stage`, and customize the content based on your specific project details. Additionally, consider adding more sections or information to your README if needed, such as API usage examples, error handling, or deployment scripts.
